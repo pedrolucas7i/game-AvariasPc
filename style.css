@@ -1,0 +1,262 @@
+* {
+	margin: 0px;
+	font-family: sans-serif;
+	font-size: 1vw;
+}
+#game2 {
+	display: flex;
+	visibility: hidden;
+}
+#init {
+	display: flex;
+	justify-content: center;
+}
+#init button {
+	width: 100vw;
+	height: 100vh;
+	border-color: transparent;
+	background-color: transparent;
+	color: red;
+	font-size: 10vw;
+	position: absolute;
+	top: 0vh;
+}
+#init video {
+	position: absolute;
+	top: 1vw;
+	z-index: -2;
+}
+#fundo {
+	width: 80vw;
+}
+#table {
+	background-color: white;
+	margin-top: 2vw;
+}
+#cpu {
+	margin-top: -3.25vw;
+	width: 7.5vw;
+	height: 7.5vw;
+	margin-bottom: -2vw;
+}
+#ram {
+	width: 7.5vw;
+	height: 5vw;
+	margin-bottom: -1vw;
+}
+#cooler {
+	width: 7.5vw;
+	height: 7vw;
+}
+#compressor {
+	width: 7.5vw;
+	height: 5vw;
+}
+
+#motherboard {
+	width: 7.5vw;
+	height: 6vw;
+}
+#fonte {
+	width: 7.5vw;
+	height: 5vw;
+}
+#pci {
+	width: 7.5vw;
+	height: 5vw;
+}
+
+#gpu {
+	width: 7.5vw;
+	height: 5vw;
+}
+#ssd {
+	width: 7.5vw;
+	height: 4vw;
+}
+#monitor {
+	width: 7.5vw;
+	height: 5vw;
+}
+#table2 {
+	display: flex;
+	margin-left: 30vw;
+}
+#system {
+	width: 7.5vw;
+	height: 7.5vw;
+}
+#virus {
+	width: 7.5vw;
+	height: 5vw;
+}
+
+#bios {
+	width: 7.5vw;
+	height: 5vw;
+}
+#drivers {
+	width: 7.5vw;
+	height: 4vw;
+}
+#nv1 {
+	background-color: yellow;
+	position: absolute;
+	padding-right: 1vw;
+	padding-left: 1vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	top: 60vh;
+	right: 4vw;
+	width: 10vw;
+	text-align: center;
+	visibility: hidden;
+}
+
+#nv2 {
+	background-color: yellow;
+	position: absolute;
+	padding-right: 1vw;
+	padding-left: 1vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	top: 60vh;
+	right: 4vw;
+	width: 10vw;
+	text-align: center;
+	visibility: hidden;
+}
+
+#nv3 {
+	background-color: yellow;
+	position: absolute;
+	padding-right: 1vw;
+	padding-left: 1vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	top: 60vh;
+	right: 4vw;
+	width: 10vw;
+	text-align: center;
+	visibility: hidden;
+}
+
+#nv4 {
+	background-color: yellow;
+	position: absolute;
+	padding-right: 1vw;
+	padding-left: 1vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	top: 60vh;
+	right: 4vw;
+	width: 10vw;
+	text-align: center;
+	visibility: hidden;
+}
+
+#nv5 {
+	background-color: yellow;
+	position: absolute;
+	padding-right: 1vw;
+	padding-left: 1vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	top: 60vh;
+	right: 4vw;
+	width: 10vw;
+	text-align: center;
+	visibility: hidden;
+}
+
+#nv6 {
+	background-color: yellow;
+	position: absolute;
+	padding-right: 1vw;
+	padding-left: 1vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	top: 60vh;
+	right: 4vw;
+	width: 10vw;
+	text-align: center;
+	visibility: hidden;
+}
+
+#nv7 {
+	background-color: yellow;
+	position: absolute;
+	padding-right: 1vw;
+	padding-left: 1vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	top: 60vh;
+	right: 4vw;
+	width: 10vw;
+	text-align: center;
+	visibility: hidden;
+}
+
+#nv8 {
+	background-color: yellow;
+	position: absolute;
+	padding-right: 1vw;
+	padding-left: 1vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	top: 60vh;
+	right: 4vw;
+	width: 10vw;
+	text-align: center;
+	visibility: hidden;
+}
+
+#nv9 {
+	background-color: yellow;
+	position: absolute;
+	padding-right: 1vw;
+	padding-left: 1vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	top: 60vh;
+	right: 4vw;
+	width: 10vw;
+	text-align: center;
+	visibility: hidden;
+}
+
+#nv10 {
+	background-color: yellow;
+	position: absolute;
+	padding-right: 1vw;
+	padding-left: 1vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	top: 60vh;
+	right: 4vw;
+	width: 10vw;
+	text-align: center;
+	visibility: hidden;
+}
+#pt {
+	position: absolute;
+	font-size: 2vw;
+	z-index: -1;
+	top: 2.5vw;
+	left: 55vw;
+}
+#pont {
+	font-size: 2vw;
+}
+#fim {
+	position: absolute;
+	top: 45vh;
+	left: 5vw;
+	width: 90vw;
+}
+#fim h1 {
+	font-size: 4vw;
+}
+#fim h2 {
+	font-size: 2vw;
+}

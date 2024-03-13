@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>PC Error</title>
+		<link rel="shortcut icon" href="./arquivos/img/computer-158743_1280.png" type="image/x-icon" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="./main.js" defer></script>
+		<audio id="error_audio" src="./arquivos/mp3/error-2-126514.mp3"></audio>
+		<audio id="correct_audio" src="./arquivos/mp3/game-level-complete-143022.mp3"></audio>
+	</head>
+	<body>
+		<div id="game">
+			<div id="game2">
+				<table id="table">
+					<tr>
+						<th>
+							<a onclick="cpu()"><img id="cpu" src="./arquivos/img/i7.png" alt="" /></a>
+						</th>
+					</tr>
+					<tr>
+						<th>
+							<a onclick="ram()"><img id="ram" src="./arquivos/img/ram.png" alt="" /></a>
+						</th>
+					</tr>
+					<tr>
+						<th>
+							<a onclick="cooler()"><img id="cooler" src="./arquivos/img/cooler.jpg" alt="" /></a>
+						</th>
+					</tr>
+					<tr>
+						<th>
+							<a onclick="compressor()"><img id="compressor" src="./arquivos/img/compressor.jpg" alt="" /></a>
+						</th>
+					</tr>
+					<tr>
+						<th>
+							<a onclick="motherboard()"><img id="motherboard" src="./arquivos/img/motherboard.jpg" alt="" /></a>
+						</th>
+					</tr>
+					<tr>
+						<th>
+							<a onclick="fonte()"><img id="fonte" src="./arquivos/img/fonte.jpg" alt="" /></a>
+						</th>
+					</tr>
+					<tr>
+						<th>
+							<a onclick="pci()"><img id="pci" src="./arquivos/img/pci.jpg" alt="" /></a>
+						</th>
+					</tr>
+					<tr>
+						<th>
+							<a onclick="gpu()"><img id="gpu" src="./arquivos/img/placa gráfica.jpg" alt="" /></a>
+						</th>
+					</tr>
+					<tr>
+						<th>
+							<a onclick="ssd()"><img id="ssd" src="./arquivos/img/nvme.png" alt="" /></a>
+						</th>
+					</tr>
+					<tr>
+						<th>
+							<a onclick="monitor()"><img id="monitor" src="./arquivos/img/monitor.png" alt="" /></a>
+						</th>
+					</tr>
+				</table>
+				<div id="space_of_game">
+					<img id="pc" onclick="vira_pc()" src="./arquivos/img/desktop_frente.png" alt="" />
+					<img src="./arquivos/img/monitor.png" alt="" />
+				</div>
+				<table id="table2">
+					<tr>
+						<th>
+							<a onclick="system()"
+								><img id="system" src="./arquivos/img/system.svg" alt=""
+							/></a>
+						</th>
+					</tr>
+					<tr>
+						<th>
+							<a onclick="virus()"><img id="virus" src="./arquivos/img/virus.jpg" alt="" /></a>
+						</th>
+					</tr>
+					<tr>
+						<th>
+							<a onclick="bios()"><img id="bios" src="./arquivos/img/bios.png" alt="" /></a>
+						</th>
+					</tr>
+					<tr>
+						<th>
+							<a onclick="drivers()"
+								><img id="drivers" src="./arquivos/img/drivers.png" alt=""
+							/></a>
+						</th>
+					</tr>
+				</table>
+			</div>
+			<div id="init">
+				<button onclick="start(); fullScreen(); nv1_text();">▶</button>
+				<video
+					muted="true"
+					autoplay="true"
+					loop="true"
+					src="./arquivos/mp4/caderno-119660.mp4"
+				></video>
+			</div>
+			<h3 id="nv1">
+				Meu computador deixou de ter internet, tudo aconteceu desde que mudei de casa, e o coloquei no carro...
+			<h3>
+
+			<h3 id="nv2">
+				Meu computador desliga-se sozinho. Normalmente ele faz isso quando aquece um pouco.
+			<h3>
+
+			<h3 id="nv3">
+				Meu computador está muito lento e diz que tem o espaço de armazenamento cheio. Aconteceu desde que instalei um novo jogo de 20 GB, mas eu ainda tinha 100 GB de espaço livre...
+			<h3>
+
+			<h3 id="nv4">
+				Comprei uma nova placa gráfica, coloquei-a e liguei o meu computador. Aparentemente o meu pc não reconhece a placa gráfica nem dá video por ela...
+			<h3>
+
+			<h3 id="nv5">
+				Um dia fui ligar o meu pc e este não ligou. Apesar das ventoinhas rodarem, não apareceu video nem bips...
+			</h3>
+
+			<h3 id="nv6">
+				Quando estou a usar o pc costumo ouvir barulhos vindos do pc. Uso itensamente o pc desde à 4 anos atrás...
+			</h3>
+
+			<h3 id="nv7">
+				Ao ligar o computador ouvem-se 3 bips longos e não dá imagem. O problema começou depois de ter colocado mais uma ddr4 nos slots...
+			</h3>
+			<h3 id="nv8">
+				Não consigo iniciar o windows. O problema começou após uma falha de energia...
+			</h3>
+
+			<h3 id="nv9">
+				Meu pc não liga nem faz nada. Tudo aconteceu após 2 dias com a minha gpu (placa gráfica) nova...
+			</h3>
+
+			<h3 id="nv10">
+				O meu computador liga mas por vezes dá alguns bips. O computador esteve parado durante 1 ano e meio...
+			</h3>
+
+			<h1 id="pt">Pontuação: <span id="pont">10000</span></h1>
+		</div>
+		<div id="fim" style="visibility: hidden;">
+			<h1>Parabéns, completou o desafio com <span></span> pontos!!!</h1>
+			<h2>Obrigado! Mandem sujestões para o email: pedrolucas.core9i@gmail.com</h2>
+		</div>
+	</body>
+</html>
