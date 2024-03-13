@@ -1,2 +1,2 @@
 # game-AvariasPc
-a game to learn what to do in every computer breakdown
+A game to learn what to do in every computer breakdown (in Portuguese)
